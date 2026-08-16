@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SchoolOS — Teacher Tools</title>
+
+    <meta name="description"
+          content="SchoolOS — Simple digital tools for teachers, schools and education.">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f7fb;
+            color: #172033;
+        }
+
+        header {
+            background: linear-gradient(135deg, #0b5cff, #123c9b);
+            color: white;
+            padding: 22px;
+        }
+
+        .header-content {
+            max-width: 1150px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .logo {
+            font-size: 30px;
+            font-weight: 800;
+        }
+
+        .tagline {
+            margin-top: 5px;
+            font-size: 14px;
+            opacity: .9;
+        }
+
+        .developer {
+            text-align: right;
+            font-size: 13px;
+            line-height: 1.5;
+        }
+
+        main {
+            max-width: 1150px;
+            margin: auto;
+            padding: 25px 18px;
+        }
+
+        .hero {
+            background: white;
+            border-radius: 24px;
+            padding: 35px;
+            box-shadow: 0 8px 30px rgba(0,0,0,.06);
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 7px 12px;
+            border-radius: 30px;
+            background: #e8f0ff;
+            color: #0b5cff;
+            font-size: 12px;
+            font-weight: 700;
+        }
+
+        h1 {
+            font-size: 38px;
+            margin: 15px 0 10px;
+        }
+
+        .hero p {
+            color: #647084;
+            line-height: 1.7;
+            max-width: 750px;
+        }
+
+        .section-title {
+            margin-top: 35px;
+        }
+
+        .tools {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 15px;
+            margin-top: 18px;
+        }
+
+        .tool {
+            background: white;
+            border: 1px solid #e3e8f0;
+            border-radius: 18px;
+            padding: 20px;
+            transition: .2s;
+        }
+
+        .tool:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(0,0,0,.08);
+        }
+
+        .icon {
+            font-size: 32px;
+        }
+
+        .tool h3 {
+            margin: 12px 0 7px;
+            font-size: 17px;
+        }
+
+        .tool p {
+            margin: 0;
+            color: #697487;
+            font-size: 13px;
+            line-height: 1.5;
+        }
+
+        .about {
+            background: white;
+            border-radius: 20px;
+            padding: 25px;
+            margin-top: 25px;
+            box-shadow: 0 6px 25px rgba(0,0,0,.05);
+        }
+
+        .about p {
+            color: #647084;
+            line-height: 1.7;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 15px;
+            color: #6b7588;
+            font-size: 13px;
+        }
+
+        @media (max-width: 850px) {
+            .tools {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 550px) {
+            .header-content {
+                display: block;
+            }
+
+            .developer {
+                text-align: left;
+                margin-top: 12px;
+            }
+
+            h1 {
+                font-size: 30px;
+            }
+
+            .hero {
+                padding: 25px;
+            }
+
+            .tools {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="header-content">
+
+        <div>
+            <div class="logo">🏫 SchoolOS</div>
+
+            <div class="tagline">
+                One Platform. Every School. Every Student.
+            </div>
+        </div>
+
+        <div class="developer">
+            <strong>Owned & Developed by</strong><br>
+            Team of Tutors<br>
+            0300-2627199
+        </div>
+
+    </div>
+</header>
+
+<main>
+
+    <section class="hero">
+
+        <span class="badge">
+            👨‍🏫 TEACHER TOOLS
+        </span>
+
+        <h1>
+            Make Teaching Simpler.
+        </h1>
+
+        <p>
+            SchoolOS is being developed as a simple,
+            accessible and powerful educational platform
+            designed to make everyday teaching and school
+            work easier.
+        </p>
+
+        <p>
+            Our first development phase focuses on
+            practical tools that teachers can use every day.
+        </p>
+
+    </section>
+
+
+    <h2 class="section-title">
+        Teacher Tools
+    </h2>
+
+
+    <section class="tools">
+
+        <div class="tool">
+            <div class="icon">📚</div>
+            <h3>Lesson Plan Creator</h3>
+            <p>
+                Create structured and professional
+                lesson plans.
+            </p>
+        </div>
+
+
+        <div class="tool">
+            <div class="icon">📖</div>
+            <h3>Daily Teaching Diary</h3>
+            <p>
+                Record daily teaching activities
+                and classroom progress.
+            </p>
+        </div>
+
+
+        <div class="tool">
+            <div class="icon">🏠</div>
+            <h3>Homework</h3>
+            <p>
+                Prepare and organize homework
+                for students.
+            </p>
+        </div>
+
+
+        <div class="tool">
+            <div class="icon">📝</div>
+            <h3>Assessment</h3>
+            <p>
+                Record assessments and monitor
+                student learning.
+            </p>
+        </div>
+
+
+        <div class="tool">
+            <div class="icon">🗒️</div>
+            <h3>Class Notes</h3>
+            <p>
+                Keep organized classroom and
+                teaching notes.
+            </p>
+        </div>
+
+    </section>
+
+
+    <section class="about">
+
+        <h2>
+            🌍 Our Vision
+        </h2>
+
+        <p>
+            SchoolOS aims to provide useful digital
+            educational tools that can be used by
+            teachers and schools anywhere.
+        </p>
+
+        <p>
+            The platform is being developed with
+            simplicity, accessibility and practical
+            classroom needs in mind.
+        </p>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    © 2026 SchoolOS
+
+    <br><br>
+
+    Owned & Developed by
+    <strong>Team of Tutors</strong>
+
+    • 0300-2627199
+
+</footer>
+
+</body>
+</html>
